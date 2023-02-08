@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ContadorModule } from './contador/contador/contador.module';
+import { MkModule } from './dbz/mk.module';
 import { HeroesModule } from './heroes/heroes.module';
 
 // TAREA: Crear un modulo llamado ContadorModule, hacer declaraciones y exportaciones
@@ -12,7 +13,7 @@ import { HeroesModule } from './heroes/heroes.module';
   declarations: [AppComponent],
 
   //En imports van los módulos
-  imports: [BrowserModule, HeroesModule, ContadorModule],
+  imports: [BrowserModule, HeroesModule, ContadorModule, MkModule],
 
   //Parecido a los servicios
   providers: [],
