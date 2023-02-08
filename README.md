@@ -8,9 +8,9 @@
 
 - ngModel
 
-- @Inputs
+- @Input()
 
-- @outputs
+- @Output()
 
 - Servicios
 
